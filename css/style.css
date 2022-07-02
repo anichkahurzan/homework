@@ -1,0 +1,234 @@
+:root{
+/* головний колір сторінки */     
+--main-color-br:#FFFFFF;
+/* головний колір тексту*/
+--main-color-text:#757575;
+/* другий колір тексту */
+--secondary-color-text: #212121;
+/*другорядний колір сторінки*/
+--secondary-color-background:#F5F4FA;
+/* колір підвалу */
+--footer-color:#2F303A;
+/* колір наведення */
+--accent-color:#2196F3;
+/* колір адреси */
+--adress-color:rgba(255, 255, 255, 0.6);
+}
+
+body{
+    background-color: var(--main-color-br);
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-color-text);
+}
+
+ul {
+    list-style: none;
+}
+/* Навігація */
+.logo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color-text)
+}
+
+.logo-web{
+    color: var(--accent-color)
+}
+
+ul{
+    list-style: none;
+}
+
+.site-nav{
+    color: var(--secondary-color-text);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-decoration: none; 
+}
+
+.site-nav :focus,
+.site-nav :hover{
+    color: var(--accent-color);
+}
+
+.site-link-cursor{
+    color: var(--accent-color);
+}
+
+.site-link{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color-text);
+}
+
+.contacts{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--main-color-text);
+    text-decoration: none;
+}
+
+.contacts .contact-link{
+    color: var(--main-color-text)
+}
+
+.contact-link:hover,
+.contact-link:focus{
+    color: var(--accent-color);
+}
+
+/* особливості */
+.main{
+    background-color: var(--footer-color);
+}
+
+.main-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--main-color-br);
+}
+
+.main-button{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--main-color-br);
+    background: var(--accent-color);
+}
+
+/* презентація */
+.title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--secondary-color-text);
+}
+
+.content{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--main-color-text);
+}
+
+.work .title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+/* команда */
+.represent{
+    background-color: var(--secondary-color-background);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.represent .title{
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.represent-title{
+    color: var(--secondary-color-text);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.represent-content{
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* підвал */
+
+
+.footer{
+    width: 1600px;
+    height: 252px;
+    background-color: var(--footer-color);
+}
+
+.footer-logo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--main-color-br);
+}
+.web {
+    color: var(--accent-color);
+}
+
+.footer-nav .footer-text{
+    color: var(--main-color-br);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+
+
+.footer-nav .contact-link {
+    color: var(--adress-color);
+}
+
+.footer-nav .contact-link:hover,
+.footer-nav .contact-link:focus {
+    color: var(--accent-color);
+}
+
+.footer-text:hover,
+.footer-text:focus {
+    color: var(--accent-color);
+}
