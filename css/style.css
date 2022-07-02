@@ -231,4 +231,5 @@ ul{
 .footer-text:hover,
 .footer-text:focus {
     color: var(--accent-color);
+    list-style: none;
 }
